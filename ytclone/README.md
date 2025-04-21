@@ -1,10 +1,5 @@
-Absolutely, let’s craft a clean, professional, and **developer-friendly** `README.md` in Markdown for your YouTube video viewer React app. This version assumes the app fetches and displays YouTube videos using a clean UI.
-
----
-
 ### 📄 `README.md`
 
-```markdown
 # 🎬 YouTube Clone with React
 
 A sleek, responsive, and functional YouTube clone built using **React**, **Material UI**, and the **YouTube v3 API**. It allows users to search, view, and explore videos and channels in a modern UI—mimicking the core features of YouTube.
@@ -57,7 +52,7 @@ public/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/youtube-clone-react.git
+git clone https://github.com/Aadish2006/youtube-clone-react.git
 cd youtube-clone-react
 ```
 
