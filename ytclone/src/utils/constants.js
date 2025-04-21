@@ -12,14 +12,18 @@ import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
-export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
+export const logo = 
+// 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-V2z3ZbVtma3iD51g-Ng18KlyJIK1DdQHA&s'
+// 'https://i.ibb.co/s9Qys2j/logo.png';
+// 'https://i.pinimg.com/474x/38/4e/05/384e05942428b8598fb9ec507fb75efb.jpg';
+// 'https://rukminim2.flixcart.com/image/850/1000/xif0q/wall-decoration/0/p/9/youtube-logo-neon-led-sign-for-youtubers-streamers-influencers-original-imahf2hhhzujnbfz.jpeg?q=90&crop=false'
+// 'https://i.pinimg.com/564x/58/18/2a/58182afdf0d27fd3a1c07bdd2218753b.jpg'
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdmoKlB0EY1GXn95wkFBMaDYGe0hDBqvFRSw&s'
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },

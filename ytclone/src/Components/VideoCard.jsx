@@ -30,7 +30,7 @@ const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
           image={snippet?.thumbnails?.high?.url || demoThumbnailUrl}
           alt={snippet?.title}
           sx={{
-            width: '100%',
+            width: {xs:'100%', sm:'358px', md:'320px'},
             height: 180,
             objectFit: 'cover',
           }}

@@ -15,6 +15,7 @@ const Feed = () => {
 
   return (
     <Stack sx={{ flexDirection: { xs: 'column', md: 'row' } }}>
+      {/* Sidebar */}
       <Box
         sx={{
           height: { xs: 'auto', md: '92vh' },
@@ -35,12 +36,29 @@ const Feed = () => {
         </Typography>
       </Box>
 
-      <Box p={2} sx={{ overflowY: 'auto', height: '90vh', flex: 2 }}>
-        <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: 'white' }}>
-          {selectedCategory} <span style={{ color: 'red' }}>Videos</span>
-        </Typography>
+      {/* Main Feed */}
+      <Box sx={{ flex: 2, overflowY: 'auto', height: '90vh' }}>
+        {/* Gradient Header */}
+        <Box
+          sx={{
+            background:
+              'linear-gradient(90deg, rgba(180, 58, 172, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%)',
+            height: '100px',
+            display: 'flex',
+            alignItems: 'center',
+            px: 2,
+            mb: 2,
+          }}
+        >
+          <Typography variant="h4" fontWeight="bold" color="#fff">
+            {selectedCategory} <span style={{ color: '#000' }}>Videos</span>
+          </Typography>
+        </Box>
 
-        <Videos videos={videos} />
+        {/* Videos List */}
+        <Box px={2}>
+          <Videos videos={videos} />
+        </Box>
       </Box>
     </Stack>
   );
